@@ -13,6 +13,6 @@ Camera access requires HTTPS or `localhost`.
 
 ## Deploy
 
-To publish, open the repository's **Settings → Pages**, set **Build and deployment → Source** to **GitHub Actions**, then run **Deploy to GitHub Pages** from the Actions tab. Future pushes to `main` deploy automatically.
+To publish, open the repository's **Settings → Pages**, set **Build and deployment → Source** to **GitHub Actions**, then run **Deploy to GitHub Pages** from the Actions tab. Future pushes to `main` deploy automatically; you can also run the workflow manually from the Actions tab.
 
 Once enabled, the site will be available at [thisisaktar.github.io/focus-mirror](https://thisisaktar.github.io/focus-mirror/).

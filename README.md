@@ -13,4 +13,6 @@ Camera access requires HTTPS or `localhost`.
 
 ## Deploy
 
-The site is published to [GitHub Pages](https://thisisaktar.github.io/focus-mirror/) from the `main` branch. The GitHub Actions workflow builds the Vite app and deploys the `dist` directory.
+To publish, open the repository's **Settings → Pages**, set **Build and deployment → Source** to **GitHub Actions**, then run **Deploy to GitHub Pages** from the Actions tab. Future pushes to `main` deploy automatically.
+
+Once enabled, the site will be available at [thisisaktar.github.io/focus-mirror](https://thisisaktar.github.io/focus-mirror/).

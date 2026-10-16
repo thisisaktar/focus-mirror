@@ -782,7 +782,7 @@ export default function FocusMirror() {
         ::-webkit-scrollbar { width: 4px; } ::-webkit-scrollbar-track { background: #111827; } ::-webkit-scrollbar-thumb { background: #374151; border-radius: 4px; }
       `}</style>
 
-      <audio ref={alertAudioRef} preload="auto" src="/alert.wav" />
+      <audio ref={alertAudioRef} preload="auto" src={`${import.meta.env.BASE_URL}alert.wav`} />
 
       <Toast toasts={toasts} />
       {/* Always mounted: MediaPipe Camera needs this ref even when Live Detection tab is not active */}

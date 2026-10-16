@@ -1,16 +1,16 @@
-# React + Vite
+# Focus Mirror
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Focus Mirror is a browser-based focus tracker. It uses your camera to detect focus and drowsiness, provides alerts, and includes Pomodoro sessions.
 
-Currently, two official plugins are available:
+## Run locally
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+```sh
+npm install
+npm run dev
+```
 
-## React Compiler
+Camera access requires HTTPS or `localhost`.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Deploy
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The site is published to [GitHub Pages](https://thisisaktar.github.io/focus-mirror/) from the `main` branch. The GitHub Actions workflow builds the Vite app and deploys the `dist` directory.
